@@ -1,0 +1,90 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 100px;  
+}
+ul{
+    color: black;
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    margin: 0px 50px;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+section{
+    display: flex;
+    
+}
+.about{
+    line-height: 1.8;
+    margin-top: 100px;
+}
+.half-wight{
+    width: 50%;
+}
+h2{
+    font-size: 40PX;
+}
+h3{
+    font-size: 30px;
+}
+li a:hover{
+    background-color: turquoise;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 30px;
+
+}
+.link{
+    text-decoration: none;
+    background-color: turquoise;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-weight: 800;
+}
+.link:hover{
+    background-color: hotpink;
+}
+img{
+    max-width: 100%;
+}
+.service{
+    margin-top: 100px;
+}
+.icon{
+    height: 60px;
+    width: 60px;
+    position: left;
+}
+.service-style{
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 20px 20px 20px 20px gainsboro;
+    border-radius: 10px;
+    
+}
+.pricing{
+    width: 90%;
+    height: 100%;
+    margin: 100px 60px;
+    padding: 20px;
+    box-shadow: 20px 20px 20px 20px rgb(224, 219, 219);
+    border-radius: 15px;
+    float: left;
+    height: 300px;
+}
+.pricing-table{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
